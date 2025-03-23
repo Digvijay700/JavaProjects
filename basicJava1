@@ -1,0 +1,9 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+     int myAge=22;
+     int herAge=myAge+1;
+     System.out.println(herAge);
+  }
+}
