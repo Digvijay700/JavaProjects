@@ -1,0 +1,10 @@
+public class EscapeSequences {
+    public static void main(String args[]) {
+        String dQuote="Hello \"World\" ";
+        String slash="c:\\Windows\\...";
+        String nLine="hi \n hello";
+        System.out.println(dQuote);
+        System.out.println(slash);
+        System.out.println(nLine);
+    }
+}
