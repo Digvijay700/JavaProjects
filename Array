@@ -1,0 +1,18 @@
+import java.util.Arrays;
+
+public class Array {
+    public static void main(String args[]) {
+        int[] numbers= new int[5];
+        numbers[0]=1;
+        numbers[1]=2;
+
+        System.out.println(Arrays.toString(numbers));
+
+
+        int[] num={2,3,4,5,1,2};
+        System.out.println("num= "+Arrays.toString(num));
+        System.out.println("Length of num is "+num.length);
+        Arrays.sort(num);
+        System.out.println("Sorted num= "+ Arrays.toString(num));
+    }
+}
